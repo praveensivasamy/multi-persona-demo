@@ -1,0 +1,205 @@
+{
+    "window.newWindowProfile": "Default",
+    "window.title": "${folderName} [${activeEditorMedium}] - ${appName}",
+    "window.zoomLevel": 0.45,
+    "workbench.colorCustomizations": {
+        //"editor.lineHighlightBackground": "#6c6d6d",
+        "editor.lineHighlightBorder": "#e6efa6",
+        //"statusBar.background": "#E5E5E5",
+        //"statusBar.border": "#D0D0D0",
+        //"statusBar.foreground": "#333333",
+        //"titleBar.activeBackground": "#ededec",
+        //"titleBar.inactiveBackground": "#ededec",
+        //"window.inactiveBorder": "#E5E5E5"
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeLensFontFamily": "'Fira Code','Courier New', monospace,Consolas",
+    "editor.fontFamily": "'Fira Code','Courier New', monospace,Consolas",
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "all",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "scope": [
+    //                 "entity.name.function.decorator.python",
+    //                 "meta.function.decorator.python",
+    //                 "punctuation.definition.decorator.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#fc864c",
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "entity.name.namespace",
+    //                 "support.variable.magic.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#0c0c0c"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "keyword.control.flow.python",
+    //                 "keyword.control.import.python",
+    //                 "keyword.control.python",
+    //                 "keyword.python",
+    //                 "keyword.operator.logical.python",
+    //                 "keyword.operator.comparison.python",
+    //                 "storage.type.class.python",
+    //                 "storage.type.function.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#065aae",
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "meta.function-call.arguments.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#b817b0"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "support.function.magic.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#b817b0",
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "storage.type.function.async.python",
+    //                 "storage.type.function.lambda.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#065aae"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "punctuation.separator.annotation.result.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#0e0d0e",
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "string.quoted.docstring.multi.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#354fe3"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "string.quoted.multi.python"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#109c64"
+    //             }
+    //         }
+    //     ]
+    // },
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.showMoves": true,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "explorer.autoRevealExclude": {
+        "*py_cache*": true,
+        "*venv*": true
+    },
+    "explorer.excludeGitIgnore": true,
+    "files.exclude": {
+        ".mypy*": true,
+        ".pytest.agent": true,
+        ".pytest_cache": true,
+        ".ruff_cache": true,
+        ".vscode": true
+    },
+    "git.autofetch": true,
+    "git.autofetchPeriod": 600,
+    "git.blame.ignoreWhitespace": true,
+    "git.blame.editorDecoration.enabled": true,
+    "git.blame.statusBarItem.enabled": true,
+    "git.blame.editorDecoration.disableHover": false,
+    "git.blame.editorDecoration.template": "${authorName}, ${authorDateAgo} • ${subject}",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.enableParallelIndexing": true,
+    "python.analysis.includeVenvInWorkspaceSymbols": true,
+    "python.analysis.referencesCodeLens": true,
+    "pythonCodeLensLite.references.filterSelf": true,
+    "pythonCodeLensLite.targets.imports.venv": true,
+    "evenBetterToml.formatter.allowedBlankLines": 1,
+    "evenBetterToml.formatter.indentEntries": true,
+    "debug.toolBarLocation": "docked",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "normal",
+    "chat.agent.maxRequests": 900,
+    "chat.sessionSync.enabled": true,
+    "github.copilot.advanced": {
+        "authProvider": "github-enterprise"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": false,
+        "plaintext": false,
+        "scminput": false,
+        "skill": false
+    },
+   
+    "update.showReleaseNotes": false,
+    "redhat.telemetry.enabled": false,
+    "settingsSync.ignoredExtensions": [
+        "vscode.cpp",
+        "vscode.csharp",
+        "vscode.clojure",
+        "vscode.coffeescript",
+        "vscode.fsharp",
+        "vscode.swift",
+        "vscode.shaderlab",
+        "vscode.rust",
+        "vscode.razor",
+        "vscode.r",
+        "vscode.pug",
+        "vscode.ipynb",
+        "vscode.emmet",
+        "pkief.material-icon-theme",
+        "ms-toolsai.datawrangler",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer",
+        "vscode-icons-team.vscode-icons"
+    ],
+    "chat.agentSessions.showExternal": "last7Days",
+    "sqliteviewer.openReadonly": true,
+    "chat.agent.sandbox.enabledWindows": "on",
+    "[jsonc]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "workbench.activityBar.compact": true,
+    "chat.viewSessions.orientation": "stacked",
+    "chat.planAgent.defaultModel": "Auto (copilot)",
+    "chat.viewProgressBadge.enabled": true
+}
